@@ -74,8 +74,8 @@ const Product = ({
                 </CardContent>
             </Collapse>
         </Card>
-    )
-}
+    );
+};
 
 const Products = () => {
     const { data, isLoading } = useGetProductsQuery();
